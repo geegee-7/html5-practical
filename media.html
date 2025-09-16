@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Media | BakeBook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+
+  <header>
+    <h1>Media</h1>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="media.html" aria-current="page">Media</a></li>
+        <li><a href="extras.html">Extras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+       <h2>Featured Recipe Image</h2>
+       <picture>
+        <source srcset= "assets/hero-large.jpg.jpg" media="(min-width: 1024px)">
+        <source srcset="assets/hero-medium.jpg.jpg" media="(min-width: 600px)">
+        <img src="assets/hero-small.jpg.jpg" alt="Freshly baked apple pie on a wooden table" loading="lazy" width="100%">
+       </picture>
+
+
+      <h2> Delicious Apple Pie </Video></h2>
+      <video controls width="640">
+        <source src="assets/video/sample.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <h2> Audio Recipe Instructions</h2>
+      <audio controls>
+        <source src="assets/audio/sample.mp3.mp3" type="audio/mpeg">
+        <track src="assets/captions/sample.vtt" kind="captions" srclang="en" label="English">
+        Your browser does not support the audio tag.
+      </audio>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; <time datetime="2025">2025</time> BakeBook. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

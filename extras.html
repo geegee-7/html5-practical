@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Extras | BakeBook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+
+  <header>
+    <h1>Extra Features</h1>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="extras.html" aria-current="page">Extras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>Interactive Recipe Tip</h2>
+
+      <details>
+        <summary> Click to reveal the pie crust secret</summary>
+        <p>Use frozen butter and grate it into your flour — this creates flaky layers!</p>
+      </details>
+
+      <h2>Dialog Example </h2>
+
+      <dialog open>
+        <p> Want more recipes? Subscribe for weekly baking emails!</p>
+        <button onclick="this.closest('dialog').close()">Close</button>
+      </dialog>
+
+      <h2>Recipe Table</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Ingredient</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Flour</td><td>2 cups</td></tr>
+          <tr><td>Butter</td><td>1 cup</td></tr>
+          <tr><td>Sugar</td><td>3/4 cup</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Time & Microcontent Tags</h2>
+      <p>Total baking time: <time datetime="PT45M">45 minutes</time></p>
+      <p>Published on: <time datetime="2025-09-14">Sept 14, 2025</time></p>
+
+      <h2>Code & Quotes</h2>
+      <pre><code>&lt;section class="recipe"&gt;...&lt;/section&gt;</code></pre>
+      <blockquote cite="https://greatbakingquotes.com">
+        "Good baking is the foundation of every celebration."
+        <footer>— <cite>Julia Sweet</cite></footer>
+      </blockquote>
+
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; <time datetime="2025">2025</time> BakeBook. Share your recipe with the world!</p>
+  </footer>
+
+</body>
+</html>
